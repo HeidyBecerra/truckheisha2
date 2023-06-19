@@ -1,0 +1,116 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}*{
+    margin: 0%;
+    padding: 0%;
+    border-radius: 0%;
+}
+header{
+    background-color: black;
+    text-align: center;
+    height: 150px;
+    font-family: cursive;
+    color: #FEF6A5;
+}
+
+  #imglogo{
+    width: 80px;
+    height: 80px; 
+    text-align: center;
+   
+
+    }
+  .cajalogo{
+    margin-bottom: 100px;
+   
+  }  
+
+  footer{
+    background-color: black;
+    text-align: center;
+    height: 130px;
+    font-family: cursive;
+    color: #FEF6A5;
+  } 
+  .redes a{
+    text-align: center;
+    text-decoration: none;
+    color: #FEF6A5;
+    font-size: 40px;
+  }
+
+  body{
+    background-color: #BFAC6F;
+  }
+  /* animacion imagenes  */
+  .container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+  }
+  .card{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    overflow: hidden;
+
+  }
+  .card + .card{
+    margin-left: -10%;
+  }
+   .card :hover{
+      transform: rotate(-10deg);
+      z-index: 1;
+   }
+   .card ~ .card{
+    translate: 3rem;
+   }
+   .content .card img{
+    width: 100%;
+   }
+   /* formulario */
+   label {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"] {
+    margin-top: 15px;
+    width: 280px;
+    padding: 5px;
+  }
+
+  input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #BA793C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #result {
+    margin-top: 20px;
+  }
+  .formulariobusqueda{
+     margin-top: 80px;
+     justify-content: center;
+     margin-left: 200px;
+  }
+  .cajamayor{
+    height: 200px;
+  }
+ 

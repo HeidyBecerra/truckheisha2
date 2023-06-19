@@ -1,0 +1,59 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}*{
+    margin: 0%;
+    padding: 0%;
+    border-radius: 0%;
+}
+header{
+    background-color: black;
+    text-align: center;
+    height: 150px;
+    font-family: cursive;
+    color: #FEF6A5;
+}
+
+  #imglogo{
+    width: 80px;
+    height: 80px; 
+    text-align: center;
+   
+
+    }
+  .cajalogo{
+    margin-bottom: 100px;
+   
+  }  
+
+  footer{
+    background-color: black;
+    text-align: center;
+    height: 130px;
+    font-family: cursive;
+    color: #FEF6A5;
+  } 
+  .redes a{
+    text-align: center;
+    text-decoration: none;
+    color: #FEF6A5;
+    font-size: 40px;
+  }
+  body{
+    background-color: #BFAC6F;
+  }
+  .cajamapa{
+    width: 75%;
+    height: 70%;
+    margin: auto;
+    background-color: #6989eb;
+  }
+  .cajamapa path{
+    fill:  #f0e68c;
+    stroke: #8B4513;
+    stroke-width: 2px;
+  }
+ 
+ 

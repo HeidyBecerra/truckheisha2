@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paquetes</title>
+    <link rel="stylesheet" href="../css/paquetes.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body> 
+  <div class="cajamayor">
+    <header>
+        <h1>TRUCK HEISHA</h1>
+        <div class="cajalogo"><img id="imglogo" src="../img/logo.jpeg" alt=""> </div> 
+    </header>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='../index.html'>Inicio</a></li>
+          <li><a href='../contenidocamiones/camiones.html'>Camiones</a></li>
+          <li><a href='../contenidocamiones/camioneros.html'>Camioneros</a></li>
+          <li><a href='../contenidocamiones/paquetes.html'>Paquetes</a></li>
+          <li><a href='../contenidocamiones/municipios.html'>Nuestra Red</a></li>
+          <li><a href='../contenidocamiones/contactos.html'>Contactos</a></li>
+        </ul>
+      </nav>
+      <div class="cajagrande">
+        <div class="cajaderecha">
+          <div class="container">
+              <h2>Registro del Envío de Paquetes</h2>
+              <form>
+                <div class="form-group">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="código">Código:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                  <label for="direccion">Dirección:</label>
+                  <textarea id="direccion" name="direccion" required></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="Destinatario">Destinatario:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                  <label for="Ciudad">Ciudad:</label>
+                  <select id="Ciudad" name="Ciudad" required>
+                    <option value="">Seleccionar</option>
+                    <option value="express">Tunja</option>
+                    <option value="estandar">Duitama</option>
+                    <option value="estandar">Sogamoso</option>
+                    <option value="estandar">Bucaramanga</option>
+                    <option value="estandar">Bogotá</option>
+                    <option value="estandar">Medellin</option>
+                    <option value="estandar">Guamo</option>
+                    <option value="estandar">Barranquilla</option>
+                    <option value="estandar">Cali</option>
+                    <option value="estandar">Yopal</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="cajaizquierda">
+            <div class="container">
+            <h1>Cotización de Envío de Paquetes</h1>
+            <form>
+              <div class="form-groupcotizacion">
+                <label for="origen">Origen:</label>
+                <input type="text" id="origen" name="origen" required>
+              </div>
+              <div class="form-group">
+                <label for="destino">Destino:</label>
+                <input type="text" id="destino" name="destino" required>
+              </div>
+              <div class="form-group">
+                <label for="peso">Peso (kg):</label>
+                <input type="text" id="peso" name="peso" required>
+              </div>
+              <div class="form-group">
+                <label for="dimensiones">Dimensiones (cm):</label>
+                <input type="text" id="dimensiones" name="dimensiones" required>
+              </div>
+              <div class="form-group">
+                <label for="servicio">Servicio:</label>
+                <select id="servicio" name="servicio" required>
+                  <option value="">Seleccionar</option>
+                  <option value="express">Express</option>
+                  <option value="estandar">Estándar</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Obtener Cotización">
+              </div>
+            </form>
+          </div>
+          </div>
+        </div>
+    
+      <footer>
+        <h3>
+            PODEMOS VOLCAR, PERO NO FRENAR. 
+        </h3>
+  
+        <p>Sharim Yerleisy Cano Cárdenas <br> Heidy Tatiana Becerra Cristancho</p>
+       <div class="redes">
+        <a href="https://es-la.facebook.com/"><span class="entypo-facebook"></span></a>
+        <a href="https://twitter.com/?lang=es"> <span class="entypo-twitter"></span></a>
+        <a href="https://www.instagram.com/"><span class="entypo-instagrem"></span></a>
+      </div> 
+    </footer>
+  </div>
+</body>
+</html>

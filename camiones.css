@@ -1,0 +1,224 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}*{
+    margin: 0%;
+    padding: 0%;
+    border-radius: 0%;
+}
+header{
+    background-color: black;
+    text-align: center;
+    height: 150px;
+    font-family: cursive;
+    color: #FEF6A5;
+}
+
+  #imglogo{
+    width: 80px;
+    height: 80px; 
+    text-align: center;
+   
+
+    }
+  .cajalogo{
+    margin-bottom: 100px;
+   
+  }  
+  .redes a{
+    text-align: center;
+    text-decoration: none;
+    color: #FEF6A5;
+    font-size: 40px;
+  }
+  footer{
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    font-family: cursive;
+    color: #FEF6A5;
+   margin-top: 150px;
+   height: 150px;
+  }
+  .cajamayor{
+    height: 1030px;
+    background-color: #BFAC6F;
+  
+  }
+/* IMAGENES */
+
+.contenido{
+    height: 600px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+
+}
+.base{
+    height: 350px;
+    width: 350px;
+
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.ver{
+    position: absolute;
+    display: none;
+    
+}
+.catalogo{
+    left: 20%;
+    top: 75%;
+}
+.base:hover .ver{
+    display: block;
+
+}
+.base:hover img{
+    opacity: 0.2;
+}
+.base p{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+.camion1{
+    left: 200px;
+    top: 400px;
+}
+.camion2{
+    left: 600px;
+    top: 400px;
+}
+.camion3{
+    left: 900px;
+    top: 400px;
+}
+.camion4{
+    left: 400px;
+    top: 800px;
+}
+.camion5{
+    left: 800px;
+    top: 800px;
+}
+
+@media(max-width: 1300px){
+
+  .cajamayor{
+    height: 1400px;
+  
+  }
+  footer{
+    margin-top: 500px; ;
+  }
+  .camion1{
+    left: 300px;
+    top: 400px;
+}
+.camion2{
+    left: 700px;
+    top: 400px;
+}
+.camion3{
+    left: 400px;
+    top: 700px;
+}
+.camion4{
+  left: 700px;
+  top: 700px;
+}
+.camion5{
+  left: 500px;
+  top: 1000px;
+}
+  }
+
+@media(max-width: 890px){
+    .cajamayor{
+      height: 1500px;
+    }  
+    footer{
+      margin-top: 600px;
+    }
+    .camion3{
+      left: 200px;
+      top: 800px;
+  }
+  .camion4{
+      left: 600px;
+      top: 800px;
+  }
+  .camion5{
+      left: 350px;
+      top: 1100px;
+  }
+  }
+@media(max-width: 885px){
+    .cajamayor{
+      height: 2200px;
+    }  
+    footer{
+      margin-top: 1300px;
+    }
+    .camion1{
+      left: 300px;
+      top: 400px;
+  }
+  .camion2{
+      left: 300px;
+      top: 800px;
+  }
+  .camion3{
+      left: 300px;
+      top: 1100px;
+  }
+  .camion4{
+    left: 300px;
+    top: 1400px;
+}
+.camion5{
+    left: 300px;
+    top: 1700px;
+}
+  }
+  @media(max-width: 600px){
+    .cajamayor{
+      height: 2200px;
+    }  
+    footer{
+      margin-top: 1300px;
+    }
+    .camion1{
+      left: 200px;
+      top: 400px;
+  }
+  .camion2{
+      left: 200px;
+      top: 800px;
+  }
+  .camion3{
+      left: 200px;
+      top: 1100px;
+  }
+  .camion4{
+    left: 200px;
+    top: 1400px;
+}
+.camion5{
+    left: 200px;
+    top: 1700px;
+}
+  }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camioneros</title>
+    <link rel="stylesheet" href="../css/camioneros.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body>
+  <div class="cajamayor">
+    <header>
+        <h1>TRUCK HEISHA</h1>
+        <div class="cajalogo"><img id="imglogo" src="../img/logo.jpeg" alt=""> </div> 
+    </header>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='../index.html'>Inicio</a></li>
+          <li><a href='../contenidocamiones/camiones.html'>Camiones</a></li>
+          <li><a href='../contenidocamiones/camioneros.html'>Camioneros</a></li>
+          <li><a href='../contenidocamiones/paquetes.html'>Paquetes</a></li>
+          <li><a href='../contenidocamiones/municipios.html'>Nuestra Red</a></li>
+          <li><a href='../contenidocamiones/contactos.html'>Contactos</a></li>
+        </ul>
+      </nav>
+
+      <div class="formulariobusqueda">
+      <form id="searchForm">
+        <h1>Conozca la Disponibilidad de Nuestros Camioneros:</h1>
+        <label for="documentId">Documento de Identidad:</label>
+        <input type="text" id="documentId" name="documentId" placeholder="Ingrese el documento de identidad" required>
+        <input type="submit" value="Buscar">
+      </form>
+    
+      <div id="result"></div>
+    
+      <script>
+        document.getElementById('searchForm').addEventListener('submit', function(e) {
+          e.preventDefault(); 
+          var documentId = document.getElementById('documentId').value;
+    
+          
+          var resultElement = document.getElementById('result');
+          resultElement.innerHTML = ''; 
+          var results = [
+            { name: 'John Doe', age: 30, city: 'Example City' },
+            { name: 'Jane Smith', age: 25, city: 'Another City' }
+          ];
+    
+          var found = false;
+          for (var i = 0; i < results.length; i++) {
+            if (results[i].documentId === documentId) { 
+              resultElement.innerHTML = '<p>Nombre: ' + results[i].name + '</p>' +
+                                        '<p>Edad: ' + results[i].age + '</p>' +
+                                        '<p>Ciudad: ' + results[i].city + '</p>';
+              found = true;
+              break;
+            }
+          }
+    
+          if (!found) {
+            resultElement.innerHTML = '<p>No se encontraron resultados para el documento de identidad ingresado.</p>';
+          }
+        });
+      </script>
+      </div>
+      <div class="container">
+        <div class="content">
+       <div class="card"><img src="../img/descarga1.jpg" alt=""></div>
+       <div class="card"><img src="../img/descarga2.jpg" alt=""></div>
+       <div class="card"><img src="../img/descarga3.jpg" alt=""></div>
+       <div class="card"><img src="../img/descarga4.jpg" alt=""></div>
+
+      </div>
+      </div>
+      <footer>
+        <h3>
+            PODEMOS VOLCAR, PERO NO FRENAR. 
+        </h3>
+        <p>Sharim Yerleisy Cano Cárdenas <br> Heidy Tatiana Becerra Cristancho</p>
+       <div class="redes">
+        <a href="https://es-la.facebook.com/"><span class="entypo-facebook"></span></a>
+        <a href="https://twitter.com/?lang=es"> <span class="entypo-twitter"></span></a>
+        <a href="https://www.instagram.com/"><span class="entypo-instagrem"></span></a>
+      </div> 
+    </footer>
+  </div>
+</body>
+</html>
